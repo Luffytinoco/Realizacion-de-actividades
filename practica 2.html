@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtg=device=width, initial-scale=1.0">
+    <title> Practica de programacion 2da</title>
+<head>
+<body>
+    <h1> explicaciones de elementos compuestos prueba 2</h1>
+    <label for="input 1"> primer input de prueba</label>
+    <br>
+    <input type="text" id="input 1" name="input1">
+    <br><br>
+
+    <hr>
+
+    <h2> tipos de inputs</h2>
+    <label for="correo1"> Coloca tu correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="numero1"> Input de numeritos</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <label for="psw1">Pon tu password</label><br>
+    <input type="password" id="psw1" name="psw1"><br><br>
+
+    <label for="tell1"> Numero de telefono pofavo</label><br>
+    <input type="tel" id="tell1" name="tell1" maxlength="10"><br><br>
+
+    <hr>
+
+    <h2> Seleccion multiple</h2>
+    <input type="checkbox" id="complementos1" name="complementos1" value="sopa de arroz">
+    <label for="complementos1">Sopita de arroz </label> <br>
+    <input type="checkbox" id="complementos2" name="complementos2" value="papas adobadas">
+    <label for="complementos2">Papita adobadita deliciosa </label> <br>
+    <input type="checkbox" id="complementos3" name="complementos3" value="chiles toreados">
+    <label for="complementos3">Chilitos toreados </label> <br>
+    <input type="checkbox" id="complementos4" name="complementos4" value="Alitas">
+    <label for="complementos4">Alitas doraditas </label> <br>
+
+    <h2> Seleccion unica</h2>
+    <input type="radio" id="roja" name="salsas" value="roja">
+    <label for="roja">Deliciosa salsita roja</label>
+    <input type="radio" id="verde" name="salsas" value="verde">
+    <label for="verde">Deliciosa salsita verde</label>
+    <input type="radio" id="guacamole" name="salsas" value="guacamole">
+    <label for="guacamole">Delicioso guacamole</label>
+    <br><br>
+
+    <h2>Select</h2>
+    <label for="Pollo"> Que tipo de pollo desea?</label>
+    <select id="Pollo" name="Pollo">
+        <option value="ranchero">Estilo ranchero</option>
+        <option value="carnitas">Estilo carnitas</option>
+        <option value="rostizado">Estilo rostizado</option>
+        <option value="carbon">Estilo Al carbon</option>
+    </select>
+
+    <h2>Select con input</h2>
+    <label for="Chesko">Elige tu chesko fav</label><br>
+    <input list=" Chesko">
+    <datalist id="Chesko">
+        <option value="coca-cola">
+        <option value="Manzanita lift">
+        <option value="jarrito">
+        <option value="boing">
+        <option value="agua">
+    </datalist>
+<br><br>
+
+<hr>
+
+<h2>Fecha</h2><br>
+<input type="date" id="fecha1" name="fecha1"><br>
+<input type="datetime-local" id="fecha2" name="fecha2"><br>
+<input type="week" id="fecha3" name="fecha3"><br>
+<input type="time" id="fecha4" name="fecha4"><br>
+<input type="month" id="fecha5" name="fecha5"><br>
+<br><br>
+
+<hr>
+
+<h2>Sube tu archivo!</h2>
+<input type="file" id="archivo1" name="archivo1" multiple><br><br>
+
+<h2>input de color</h2> <br>
+<input type="color" id="color1" name="color1"><br><br>
+
+<h2>input de rango</h2>
+<label for="vol"> Volumen de la musica </label><br>
+<input type="range" id="vol" name="vol" min="0" max="100" value="50"><br>
+
+<hr>
+
+<h2>input de boton</h2>
+<input type="reset"><br>
+<input type="submit"><br>
+<input type="button" id="boton1" name="boton1" value="Pedir" onclick="alert('Dese noay')"><br><br>
+
+<hr>
+
+<h2> Formulario</h2>
+<form action="/action.js" id="form1" method="post">
+    <label for="nombre"> Nombre </label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+</form>
+
+<label for="apellido">Apellido:</label>
+<input type="text" id="apellido" name="apellido" form="form1">
+
+</body>
+</html>
