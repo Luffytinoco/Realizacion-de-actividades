@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polleria el broda</title> 
+</head>
+<body>
+    <header>
+        <h1>Polleria el broda</h1>
+    </header>
+
+    <section>
+        <img src="./Spicy Fried Chicken.png" alt="Logo tacos el jefe"/>
+
+        <h2>Menú</h2>
+        <h3>Pollo grande</h3>
+        <p>Todos incluyen Sopa de arroz y cebollas horneadas</p>
+        <ul>
+            <li>Adobado .................... $170</li>
+            <li>Estilo carnitas ............ $200</li> 
+            <li>Rostizado................... $150</li>
+            <li>Al carbon  ................. $150</li>
+            <li>Estilo Kfc ................ $200</li>
+        </ul>
+
+        <h3>Pollo mediano</h3>
+        <p>Sopa de arroz y cebollas horneadas</p>
+        <ul>
+            <li>Adobado .................... $130</li>
+            <li>Estilo carnitas ............ $150</li> 
+            <li>Rostizado................... $100</li>
+            <li>Al carbon  ................. $100</li>
+            <li>Estilo Kfc ................ $140</li>
+            
+        </ul>
+
+        <h3>Guarniciones</h3>
+        <p>Agrandamelo por 15$</p>
+        <dl>
+            <dt><b>Papas cambrai</b> .................... $40</dt>
+            <dd>- Extra de Tortilla de maiz </dd>
+            <dt><b>Maxi sopa de arroz</b> .................... $40</dt>
+            <dd>- Extra de Tortilla de maiz</dd>
+            <dt><b>Bisquets</b> .................... $40</dt>
+            <dd>- Dulcesitos y con mermelada</dd>
+            <dt><b>Ensaladas</b> .................... $35</dt>
+            <dd>- Con arta crema</dd>
+            <dt><b>Pescuesitos</b> .................... $5</dt>
+            <dd>- Bien bien doraditos</dd>
+            <dt><b>Choripollo</b> .................... $15</dt>
+            <dd>- Grandotes y riquisimos</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/M4Ruf3AJ6ee5xave8" target="_blank">Parque san Jacinto</a></td>
+                <td>L - D 10am - 7pm </td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/Ve95JERZdHUTEVSU9" target="_blank">Av. Niños Heroes 699</a></td>
+                <td>L - D 10am - 7pm</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/pYKdtfspjMN8v1Jg6" target="_blank">Calz. Juan Pablo ll 1794 A</a></td>
+                <td>M - D 10am - 7pm</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aquí</h3>
+
+        <form action="">
+            <p>¿De qué polleria quieres?</p>
+            <select>
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="Sur">Sur</option>
+            </select>
+
+            <p>¿De qué Paquete quieres?</p>
+            <input type="checkbox" id="adobado" name="adobado" value="adobado">
+            <label for="adobado">Adobado</label>
+            <input type="number" id="adobadoNumber" name="adobadoNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Estilo carnitas" name="Estilo carnitas" value="Estilo carnitas">
+            <label for="Estilo carnitas">Estilo carnitas</label>
+            <input type="number" id="CarnitasNumber" name="CarnitasNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Rostizado" name="Rostizado" value="Rostizado">
+            <label for="Rostizado">Rostizado</label>
+            <input type="number" id="RostizadoNumber" name="RostizadoNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Al carbon" name="Al carbon" value="Al carbon">
+            <label for="Al carbon">Al carbon</label>
+            <input type="number" id="CarbonNumber" name="CarbonNumber" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" id="Estilo Kfc" name="Estilo Kfc" value="Estilo Kfc">
+            <label for="Estilo Kfc">Estilo Kfc</label>
+            <input type="number" id="KfcNumber" name="KfcNumber" placeholder="¿Cuántos?"><br>
+
+            <br><br>
+
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Ah nombre de Quien?">
+
+            <br><br>
+
+            <label for="Teléfono">Teléfono:</label><br>
+            <input type="text" id="Teléfono" name="Teléfono" placeholder="¿Tu teléfono?">
+
+            <br><br>
+            <label for="Dirección">Dirección:</label><br>
+            <input type="text" id="Dirección" name="Dirección" placeholder="¿A dónde lo mandamos?">
+
+            <button type="submit">Enviar pedido</button>
+            <br><br>
+        </form>
+    </section>
+
+
+</body>
+</html>
